@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="jobindex.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Job Board</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Browse Job</a>
+                <a href="#">Pages</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+                <button onclick="location.href='login.html'">Log In</button>
+                <button onclick="location.href='post-job.html'">Post A Job</button>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>4536+ Jobs listed</h2>
+            <h3>Find your Dream Job</h3>
+            <p>We provide online instant cash loans with quick approval that suit your term length</p>
+            <button onclick="location.href='upload-resume.html'">Upload Your Resume</button>
+        </div>
+    </section>
+    <section class="search">
+        <div class="container">
+            <input type="text" id="keyword" placeholder="Search keyword">
+            <input type="text" id="location" placeholder="Location">
+            <select id="category">
+                <option value="">Category</option>
+                <option value="tech">Tech</option>
+                <option value="finance">Finance</option>
+                <option value="healthcare">Healthcare</option>
+            </select>
+            <button onclick="findJob()">Find Job</button>
+        </div>
+    </section>
+    <script src="javascript.js"></script>
+</body>
+</html>

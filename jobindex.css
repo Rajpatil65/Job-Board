@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+header nav button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('file:///C:/Users/Guest/Desktop/icons/istockphoto-932058640-612x612.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.hero button {
+    background-color: #28A745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search {
+    background-color: #F8F9FA;
+    padding: 20px 0;
+}
+
+.search input, .search select, .search button {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.search button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
